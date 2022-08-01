@@ -43,7 +43,7 @@ body {
   color: #fff;
   padding: 0.6rem;
   margin-right: 1rem;
-  border-radius: 50%;
+  border-radius: 4rem;
   transition: 0.3s;
   text-decoration: none;
 }
@@ -121,4 +121,48 @@ section#home div#scroll {
 section#home div#scroll a { 
   text-decoration: none;
   color: #fff;
+}
+
+i.menu-mobile {
+  position: fixed;
+  color: #ffff;
+  background-color: #0d1836;
+  right: 1rem;
+  top: 1rem;
+  font-size: 1.5rem;
+  border-radius: 4rem;
+  cursor: pointer;
+  z-index: 10;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-nav-active { 
+  overflow: hidden;
+}
+
+.menu-nav-active #header { 
+ left: 0;
+}
+
+@media (max-width: 1024px) {
+  #header {
+    left: -300px;
+  }
+  i.menu-mobile{
+    display: flex;
+  }
+  section#home h2{
+    font-size: 3.5rem ;
+  }
+  section#home span#subtitle{
+    margin-right: 0;
+    font-size: 1rem;
+  }
+  #main{
+      margin-left: 0;
+  }
 }
