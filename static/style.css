@@ -162,6 +162,20 @@ i.menu-mobile {
   background-color: #0d1836;
 }
 
+div .row img { 
+  width: 10rem;
+  transition: all .2s ease-in-out;
+}
+
+div .row img:hover { 
+  transform: scale(1.1);
+}
+
+.section-bg { 
+
+  background-color: #eff5ff;
+}
+
 @media (max-width: 1024px) {
   #header {
     left: -300px;
