@@ -162,19 +162,31 @@ i.menu-mobile {
   background-color: #0d1836;
 }
 
-div .row img { 
+#stacks img { 
   width: 10rem;
   transition: all .2s ease-in-out;
 }
 
-div .row img:hover { 
+#stacks img:hover { 
   transform: scale(1.1);
 }
 
 .section-bg { 
-
   background-color: #eff5ff;
 }
+
+.carousel-control-prev{
+  margin-left: -8rem;
+}
+
+.carousel-control-next{
+  margin-right: -8rem;
+}
+
+.carousel-indicators{
+  margin-bottom: -35px;
+}
+
 
 @media (max-width: 1024px) {
   #header {
@@ -193,6 +205,17 @@ div .row img:hover {
   #main{
       margin-left: 0;
   }
+}
+
+@media (max-width: 1860px) {
+  .carousel-control-prev{
+    margin-left: 0;
+  }
+  
+  .carousel-control-next{
+    margin-right: 0;
+  }
+  
 }
 
 
