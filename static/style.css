@@ -189,6 +189,7 @@ i.menu-mobile {
   margin-bottom: -35px;
 }
 
+
 /* Animations */
 
 [data-anime] {
@@ -246,3 +247,23 @@ i.menu-mobile {
   }
 }
 
+#footer{
+  padding: 15px;
+  color: #fff;
+  font-size: 14px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 300px;
+  z-index: 9999;
+  background-color: #0d1836;
+  transition: .3s;
+}
+
+@media (max-width: 1012px) {
+  #footer{
+    position: static;
+    width: auto;
+    padding: 20px 15px;
+  }
+}
