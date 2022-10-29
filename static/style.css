@@ -164,6 +164,10 @@ i.menu-mobile {
   background-color: #0d1836;
 }
 
+#stacks h4  {
+  margin-top: .7rem;
+}
+
 #stacks img {
   width: 10rem;
   transition: all 0.2s ease-in-out;

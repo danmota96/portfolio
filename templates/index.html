@@ -46,7 +46,7 @@
             Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#about"><i class="bi bi-person" aria-hidden="true"></i> About me</a>
+          <a class="nav-link" href="#about"><i class="bi bi-person" aria-hidden="true"></i>Sobre</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#stacks"><i class="bi bi-list-check" aria-hidden="true"></i> Stacks</a>
@@ -56,8 +56,8 @@
           <a class="nav-link" href="#portfolio"><i class="bi bi-collection" aria-hidden="true"></i> Portfolio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="../Currículo Daniel Mota.pdf" download><i class="bi bi-file-earmark"
-              aria-hidden="true"></i>Dowload CV</a>
+          <a class="nav-link" href="https://drive.google.com/file/d/1qOhpEmSw11CjyCY6Yal48HxvKsD-jL5R/view"
+            target="_blank" download><i class="bi bi-file-earmark" aria-hidden="true"></i>CV</a>
         </li>
       </ul>
     </nav>
@@ -66,10 +66,8 @@
   <main id="main">
     <section id="home" class="row m-0 p-0">
       <div class="col-md-5 d-flex justify-content-center align-items-center flex-column">
-        <h2 class="text-white text-shadow">Hey, I´m Daniel</h2>
-        <span id="subtitle" class="text-white text-shadow">I'm a Full Stack Developer based in Brazil. Focused on
-          writing
-          clean, scalable and efficient code.
+        <h2 class="text-white text-shadow">Daniel Mota</h2>
+        <span id="subtitle" class="text-white text-shadow">Desenvolvedor FullStack
         </span>
       </div>
 
@@ -84,26 +82,24 @@
     <section class="container mt-5" id="about">
       <div class="row w-100">
         <div class="col-md-12" data-anime="down">
-          <h2 class="pt-3">About me</h2>
+          <h2 class="pt-3">Sobre</h2>
           <p>
-            I'm Daniel Mota Silva, 26 years old Brazilian Web Developer,
-            passionate about technology, movies, music, games and more.
+            Me chamo Daniel Mota, tenho 26 anos, apaixonado por tecnologia, filmes, música, jogos e jiu-jitsu.
           </p>
           <p>
-            I am a Chemistry Technician graduated from the Federal Institute
-            of Espírito Santo and currently in career transition, I started my
-            studies in software development since february 2022 at Blue
-            EdTech.
+            Sou Técnico em Química formado pelo Instituto Federal do Espírito Santo (IFES), atualmente em transição de
+            carreira, iniciei meus estudos em programação no início de 2022 na Blue EdTech.
           </p>
           <p>
-            I'm focused on growing in my career as a software developer while
-            maintaining daily learning through reading, coding my own
-            projects.
+
+            Estou focado em crescer na minha carreira como desenvolvedor de software e sempre
+            me manter atualizado das novas tecnologias do mercado, por meio de leituras diárias e desenvolvendo projetos
+            pessoais.
           </p>
           <p>
-            As main goals I have to start a degree, become a senior developer
-            and move on to a career in education or management positions as
-            Product Manager.
+
+            Como metas tenho como iniciar uma graduação, me tornar desenvolvedor sênior e seguir carreira na área
+            educacional ou na parte de gestão de tecnologia, em cargos como Gerente de Produto, por exemplo.
           </p>
         </div>
       </div>
@@ -111,40 +107,50 @@
 
     <section class="mt-5 section-bg" id="stacks" data-anime="up">
       <div>
-        <div class="container pb-5">
-          <h2 class="pt-5">My Stacks</h2>
+        <div class="container pb-5 text-center">
+          <h2 class="pt-5">Minhas Stacks</h2>
           <div class="row mt-3">
-            <div class="col">
+            <div class="col ">
               <img src="../static/icons/javascript.svg" />
+              <h4>Javascript</h4>
             </div>
             <div class="col">
               <img src="../static/icons/typescript.svg" />
+              <h4>Typescript</h4>
             </div>
             <div class="col">
               <img src="../static/icons/html5.svg" />
+              <h4>HTML5</h4>
             </div>
             <div class="col">
               <img src="../static/icons/css3.svg" />
+              <h4>CSS3</h4>
             </div>
             <div class="col">
               <img src="../static/icons/react-original.svg" />
+              <h4>React</h4>
             </div>
           </div>
           <div class="row mt-5 ">
             <div class="col">
               <img src="../static/icons/mongodb.svg" />
+              <h4>MongoDB</h4>
             </div>
             <div class="col">
               <img src="../static/icons/nestjs.svg" />
+              <h4>NestJS</h4>
             </div>
             <div class="col">
               <img src="../static/icons/postgresql.svg" />
+              <h4>Postgresql</h4>
             </div>
             <div class="col">
               <img src="../static/icons/node-js.svg" />
+              <h4>Nodejs</h4>
             </div>
             <div class="col">
               <img src="../static/icons/git.svg" />
+              <h4>Git</h4>
             </div>
           </div>
         </div>
@@ -155,6 +161,16 @@
       <div class="container pb-5 pt-5" data-anime="left">
         <h2 class="pb-4">Portfolio</h2>
         <div id="carouselPortfolio" class="carousel carousel-dark slide" data-bs-ride="carousel">
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselPortfolio"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselPortfolio"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
           <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselPortfolio" data-bs-slide-to="0" class="active"
               aria-current="true" aria-label="Slide 1"></button>
@@ -163,13 +179,14 @@
           </div>
           <div class="carousel-inner">
             <div class="carousel-item active" data-bs-interval="10000">
-              <div class="row row-cols-1 row-cols-md-3 g-4">
+              <div class="row row-cols-1 row-cols-md-2 g-4">
                 <div class="col">
                   <div class="card">
                     <img src="../static/img/lanches-react.png" class="card-img-top" alt="burgerlist" />
                     <div class="card-body">
-                      <h5 class="card-title">Burger List - Frontend</h5>
-
+                      <h5 class="card-title">Burger List</h5>
+                      <p class="card-text">Projeto FullStack criado com MongoDB Atlas, documentação do backend realizada
+                        no Swagger, Frontend desenvolvido com React, Javascript e CSS.</p>
                       <div class="d-flex justify-content-center">
                         <a href="https://github.com/danmota96/lanches-front-end" target="_blank"
                           class="btn btn-outline-dark me-3"><i class="bi bi-github"></i></a>
@@ -180,32 +197,18 @@
                   </div>
                 </div>
                 <div class="col">
-                  <div class="card">
-                    <img src="../static/img/lanches-api.png" class="card-img-top img-fluid w-100"
-                      alt="burgerlist-api" />
+                  <div class="card h-100">
+                    <img src="../static/img/XBOX-LIVE.png" class="card-img-top img-fluid w-100" alt="print de xbox-live" />
                     <div class="card-body">
-                      <h5 class="card-title">Burger List - API</h5>
-
+                      <h5 class="card-title">Xbox Live</h5>
+                      <p class="card-text">Projeto FullStack criado com ReactTS, Styled-components, postgresql, sistema
+                        de login com autenticação (jwt), CRUD de usuários (admin), jogos, gêneros e perfis.</p>
                       <div class="d-flex justify-content-center">
-                        <a href="https://github.com/codethi/blogPessoal-front-back" target="_blank"
+                        <a href="https://github.com/danmota96/xbox-live-front-end" target="_blank"
                           class="btn btn-outline-dark me-3"><i class="bi bi-github"></i></a>
-                        <a href="https://apilanchesblue.onrender.com/lanches/api-docs/" target="_blank"
-                          class="btn btn-outline-primary"><i class="bi bi-link-45deg"></i></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card">
-                    <img src="../static/img/xbox-api.png" class="card-img-top img-fluid w-100" alt="print do blog" />
-                    <div class="card-body">
-                      <h5 class="card-title">Xbox Live - API</h5>
+                        <a href="https://xbox-live-mocks.herokuapp.com/" target="_blank"
+                          class="btn btn-outline-dark me-3"><i class="bi bi-link"></i></a>
 
-                      <div class="d-flex justify-content-center">
-                        <a href="https://github.com/danmota96/xbox-live-api" target="_blank"
-                          class="btn btn-outline-dark me-3"><i class="bi bi-github"></i></a>
-                        <a href="https://xbox-live-server.onrender.com/api" target="_blank"
-                          class="btn btn-outline-primary"><i class="bi bi-link-45deg"></i></a>
                       </div>
                     </div>
                   </div>
@@ -214,14 +217,14 @@
             </div>
 
             <div class="carousel-item" data-bs-interval="2000">
-              <div class="row row-cols-1 row-cols-md-3 g-4">
+              <div class="row row-cols-1 row-cols-md-2 g-4">
                 <div class="col">
                   <div class="card h-100">
                     <img src="../static/img/blue-landing-page-javascript.png" class="card-img-top img-fluid w-100"
-                      alt="print do blog" />
+                      alt="print landing page" />
                     <div class="card-body">
                       <h5 class="card-title">Landing Page Blue EdTech</h5>
-
+                      <p class="card-text">Projeto Frontend criado com Javascript, Node, HTML e CSS.</p>
                       <div class="d-flex justify-content-center">
                         <a href="https://github.com/danmota96/aula-landing-page-node" target="_blank"
                           class="btn btn-outline-dark me-3"><i class="bi bi-github"></i></a>
@@ -229,50 +232,34 @@
                     </div>
                   </div>
                 </div>
+
                 <div class="col">
                   <div class="card h-100">
-                    <img src="../static/img/pizza-fresh-front.png" class="card-img-top img-fluid w-100"
-                      alt="print do blog" />
+                    <img src="../static/img/pizza-fresh.png" class="card-img-top img-fluid w-100 "
+                      alt="print pizza fresh" />
                     <div class="card-body">
-                      <h5 class="card-title">Pizza Fresh - Frontend</h5>
-
+                      <h5 class="card-title">Pizza Fresh</h5>
+                      <p class="card-text">Projeto FullStack criado com ReactTS, Styled-components, login com
+                        autenticação (jwt), CRUD de usuários (admin), productos, mesas, perfis e sistema e pedidos. </p>
                       <div class="d-flex justify-content-center">
-                        <a href="https://github.com/danmota96/xbox-live-front-end" target="_blank"
-                          class="btn btn-outline-dark me-3"><i class="bi bi-github"></i></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card h-100">
-                    <img src="../static/img/xbox-live-front.png" class="card-img-top img-fluid w-100"
-                      alt="print do blog" />
-                    <div class="card-body">
-                      <h5 class="card-title">Xbox Live - Frontend</h5>
-
-                      <div class="d-flex justify-content-center">
-                        <a href="https://github.com/danmota96/xbox-live-api" target="_blank"
-                          class="btn btn-outline-dark me-3"><i class="bi bi-github"></i></a>
-
+                        <div class="d-flex justify-content-center">
+                          <a href="https://github.com/danmota96/pizza-fresh-front-end" target="_blank"
+                            class="btn btn-outline-dark me-3"><i class="bi bi-github"></i></a>
+                          <a href="https://pizza-fresh-server.herokuapp.com/" target="_blank"
+                            class="btn btn-outline-dark me-3"><i class="bi bi-link"></i></a>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
+           
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselPortfolio" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselPortfolio" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
+
         </div>
-      </div>
-    </section>
     
+    </section>
 
   </main>
 
@@ -283,7 +270,7 @@
       </div>
     </div>
   </footer>
-  
+
   <script src="../static/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="../static/script.js"></script>
 </body>
